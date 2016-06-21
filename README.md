@@ -18,3 +18,6 @@ then:
 	orderparam-protein "protein"
 
 and go for a coffee, the output is a file called "s2.dat" with the resid number and corresponden order parameter value.
+
+##Times
+getS2 can't be parallelized so the times increases as long as simulated time you have (frames), 5000 frames can take 1 hour in and standar pc.
