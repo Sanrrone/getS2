@@ -1,4 +1,5 @@
 #AUTOR: Sandro Valenzuela
+#you can select an entire protein (set myprot [ atomselect top protein ]), or just a range of resids or chains (set myrange [ atomselecet top "chain A" ])
 
 # Find order param for the aa of Protein.
 proc orderparam-protein {seltext} {
